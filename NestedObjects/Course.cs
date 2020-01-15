@@ -25,10 +25,5 @@ namespace NestedObjects
         /// The number of course credits
         /// </summary>
         public int Credits { get; set; }
-
-        /// <summary>
-        /// The number of course credits
-        /// </summary>
-        public List<Course> Schedule { get; set; }
     }
 }
