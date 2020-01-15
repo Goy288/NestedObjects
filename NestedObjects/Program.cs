@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace NestedObjects
 {
@@ -15,6 +16,12 @@ namespace NestedObjects
                 Credits = 5,
                 Description = "Advanced C#"
             };
+
+            s.Schedule.Add(cpw212);
+
+            List<Course> courses = s.Schedule;
+            courses.Add(cpw212);
+            //courses.Add(cpw212);
         }
     }
 }
